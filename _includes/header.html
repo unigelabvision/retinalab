@@ -1,0 +1,1 @@
+<nav class='navbar'><div class='nav-logo'><img src='/assets/img/logo.png'></div><div class='nav-links'>{% assign nav=site['nav_' | append:page.lang] %}{% for i in nav %}<a href='{{i.link}}'>{{i.name}}</a>{% endfor %}</div><div class='lang-switch'>{% if page.lang=='it' %}<a href='/en/'>EN</a>{% else %}<a href='/it/'>IT</a>{% endif %}</div></nav>
