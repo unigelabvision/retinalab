@@ -1,8 +1,6 @@
 ---
 layout: page
 lang: en
-title: Equipment
+title: equipment
 ---
-- Patch clamp
-- ERG
-- Microscopy
+equipment page

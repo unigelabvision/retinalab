@@ -1,7 +1,6 @@
 ---
 layout: page
 lang: en
-title: Contact
+title: contact
 ---
-**Email**: name.surname@unige.it\
-**Department**: University of Genoa
+contact page

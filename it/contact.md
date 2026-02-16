@@ -1,7 +1,6 @@
 ---
 layout: page
 lang: it
-title: Contatti
+title: contact
 ---
-**Email**: nome.cognome@unige.it\
-**Dipartimento**: Università di Genova
+contact page

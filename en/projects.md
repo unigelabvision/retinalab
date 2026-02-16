@@ -1,8 +1,6 @@
 ---
 layout: page
 lang: en
-title: Projects
+title: projects
 ---
-- Neuroprotection in RP
-- Degeneration models
-- Bio-inspired retinal prostheses
+projects page

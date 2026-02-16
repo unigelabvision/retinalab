@@ -1,10 +1,6 @@
 ---
 layout: page
 lang: en
-title: Research
+title: research
 ---
-## Research areas
-- Electrophysiology (ERG, patch-clamp)
-- Photoreceptor degeneration
-- Neuroprotective and nutraceutical strategies
-- Retinal prostheses and neural interfaces
+research page

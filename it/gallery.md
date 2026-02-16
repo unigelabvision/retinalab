@@ -1,6 +1,6 @@
 ---
 layout: page
 lang: it
-title: Galleria
+title: gallery
 ---
-*(Aggiungi immagini del laboratorio o retina in `assets/img/` e referenziale qui.)*
+gallery page

@@ -1,7 +1,6 @@
 ---
 layout: page
 lang: it
-title: Team
+title: team
 ---
-### Stefano Di Marco, PhD
-Direttore del laboratorio. Fisiologia della retina, modelli preclinici, protesi retiniche.
+team page

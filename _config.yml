@@ -1,16 +1,10 @@
 
-# ---- RetinaLab @ UNIGE (bilingual Jekyll) ----
-# GitHub Pages-ready configuration (YAML strict)
-
 title: "RetinaLab @ UNIGE"
-description: "Sito ufficiale bilingue del laboratorio di fisiologia della retina"
 baseurl: "/retinalab"
 markdown: kramdown
-
 languages:
   it: "Italiano"
   en: "English"
-
 nav_it:
   - name: "Home"
     link: "/it/"
@@ -28,7 +22,6 @@ nav_it:
     link: "/it/gallery/"
   - name: "Contatti"
     link: "/it/contact/"
-
 nav_en:
   - name: "Home"
     link: "/en/"

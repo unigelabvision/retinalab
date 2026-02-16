@@ -1,18 +1,19 @@
-<nav class="navbar">
-  <div class="nav-left">
-    <a class="brand" href="{{ site.baseurl }}/{{ page.lang }}/">
-      <img src="{{ site.baseurl }}/assets/img/logo.png" class="nav-logo" alt="RetinaLab logo"/>
-      <span class="lab-title">RetinaLab@Unige</span>
+
+<nav class='navbar'>
+  <div class='nav-left'>
+    <a class='brand' href='{{ site.baseurl }}/{{ page.lang }}/'>
+      <img src='{{ site.baseurl }}/assets/img/logo.png' class='nav-logo'/>
+      <span class='lab-title'>RetinaLab@Unige</span>
     </a>
   </div>
-  <div class="nav-links">
+  <div class='nav-links'>
     {% assign nav = site["nav_" | append: page.lang] %}
     {% for item in nav %}
-      <a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+      <a href='{{ site.baseurl }}{{ item.link }}'>{{ item.name }}</a>
     {% endfor %}
   </div>
-  <div class="lang-switch">
-    {% if page.lang == "it" %}<a href="{{ site.baseurl }}/en/">EN</a>
-    {% else %}<a href="{{ site.baseurl }}/it/">IT</a>{% endif %}
+  <div class='lang-switch'>
+    {% if page.lang == "it" %}<a href='{{ site.baseurl }}/en/'>EN</a>
+    {% else %}<a href='{{ site.baseurl }}/it/'>IT</a>{% endif %}
   </div>
 </nav>

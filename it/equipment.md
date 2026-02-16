@@ -1,8 +1,6 @@
 ---
 layout: page
 lang: it
-title: Strumentazione
+title: equipment
 ---
-- Patch-clamp
-- ERG
-- Microscopia
+equipment page
