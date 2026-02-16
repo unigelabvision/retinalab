@@ -1,7 +1,9 @@
 title: "RetinaLab @ UNIGE"
-description: "Ricerca avanzata in fisiologia della retina, neuroprotezione e protesi retiniche"
-
+description: "Ricerca avanzata in fisiologia della retina"
 markdown: kramdown
+
+# IMPORTANT FOR GITHUB PAGES
+baseurl: "/retinalab"   # <-- USE YOUR REPO NAME HERE
 
 languages:
   it: "Italiano"
@@ -42,3 +44,4 @@ nav_en:
     link: "/en/gallery/"
   - name: "Contact"
     link: "/en/contact/"
+``
