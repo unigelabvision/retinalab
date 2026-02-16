@@ -3,4 +3,4 @@ layout: page
 lang: it
 title: Galleria
 ---
-Galleria di immagini...
+*(Aggiungi immagini del laboratorio o retina in `assets/img/` e referenziale qui.)*

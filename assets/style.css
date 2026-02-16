@@ -1,8 +1,28 @@
-
-body { font-family: Arial; margin: 0; background: #f5f7fb; }
-.navbar { display:flex; justify-content:space-between; padding:15px; background:#003b7a; color:white; }
-.nav-links a { color:white; margin-left:20px; text-decoration:none; }
-.hero { padding:120px 20px; text-align:center; background:#002f5e; color:white; }
-.hero-logo { width:140px; margin-bottom:20px; }
-.content { max-width:900px; margin:auto; padding:40px; }
-footer { text-align:center; background:#dfe3e6; padding:20px; }
+/* RetinaLab visual style (UniGe palette) */
+:root {
+  --blue: #003b7a;
+  --blue-2: #002f5e;
+  --accent: #e8592a;
+  --bg: #f6f8fb;
+  --text: #1d232a;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0f1216; --text:#e7edf5; --blue:#0a3a73; --blue-2:#07284f; }
+}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif}
+.navbar{position:sticky;top:0;z-index:99;display:flex;align-items:center;justify-content:space-between;padding:10px 24px;background:var(--blue);color:#fff}
+.navbar a{color:#fff;text-decoration:none}
+.brand{display:flex;align-items:center;gap:12px}
+.nav-logo{height:34px;width:auto}
+.lab-title{font-weight:600}
+.nav-links a{margin-left:16px;opacity:.95}
+.nav-links a:hover{opacity:1;text-decoration:underline}
+.lang-switch a{padding:6px 10px;border:1px solid rgba(255,255,255,.5);border-radius:6px}
+.hero{padding:96px 24px;background:linear-gradient(135deg,var(--blue-2),var(--blue));color:#fff;text-align:center}
+.hero-logo{width:120px;margin-bottom:12px}
+.content{max-width:1000px;margin:0 auto;padding:40px 24px}
+.card-grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:#fff;border-radius:12px;border:1px solid #e5e9f0;padding:16px}
+@media (prefers-color-scheme: dark){.card{background:#12161c;border-color:#243042}}
+footer{text-align:center;padding:20px;background:#e9edf3}
+@media (prefers-color-scheme: dark){footer{background:#0c1118}}

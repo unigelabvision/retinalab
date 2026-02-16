@@ -3,4 +3,4 @@ layout: page
 lang: en
 title: Gallery
 ---
-Image gallery...
+*(Add lab/retina images in `assets/img/` and reference them here.)*

@@ -1,18 +1,16 @@
-
-<html lang='{{page.lang}}'>
-<head>
-  <meta charset='utf-8'>
-  <link rel='stylesheet' href='{{site.baseurl}}/assets/style.css'>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <title>{{page.title}} - RetinaLab</title>
-</head>
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+{% include head.html %}
 <body>
-{% include header.html %}
-<header class="hero">
-  <img src="{{site.baseurl}}/assets/img/logo.png" class="hero-logo">
-  <h1>RetinaLab @ Università di Genova</h1>
-  <p>Retinal Physiology • Degenerative Diseases • Neuroprotection • Prosthetics</p>
-</header>
-<div class="content">{{content}}</div>
-{% include footer.html %}
-</body></html>
+  {% include header.html %}
+  <header class="hero">
+    <img src="{{ site.baseurl }}/assets/img/logo.png" class="hero-logo" alt="RetinaLab logo"/>
+    <h1>RetinaLab @ Università di Genova</h1>
+    <p>Fisiologia della retina • Patologie degenerative • Neuroprotezione • Protesi retiniche</p>
+  </header>
+  <main class="content">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
+</html>

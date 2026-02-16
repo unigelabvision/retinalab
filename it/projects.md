@@ -3,4 +3,6 @@ layout: page
 lang: it
 title: Progetti
 ---
-Progetti...
+- Neuroprotezione nella RP
+- Modelli di degenerazione
+- Protesi retiniche bio-ispirate

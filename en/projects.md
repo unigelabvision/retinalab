@@ -3,4 +3,6 @@ layout: page
 lang: en
 title: Projects
 ---
-Projects...
+- Neuroprotection in RP
+- Degeneration models
+- Bio-inspired retinal prostheses
